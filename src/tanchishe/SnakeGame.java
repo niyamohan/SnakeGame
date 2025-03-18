@@ -13,7 +13,7 @@ public class SnakeGame {
         frame.setResizable(false);
         frame.setLocationRelativeTo(null); // 居中显示
         frame.setVisible(true);
-        
-        panel.startGame(); // 启动游戏
+        // 启动游戏
+        panel.startGame();
     }
 }
