@@ -9,7 +9,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/game")
-@CrossOrigin(origins = "http://localhost:3000") // 允许React访问
+//允许React访问
+@CrossOrigin(origins = "http://localhost:3000")  
 public class GameController {
     private Snake snake = new Snake();
     private Food food = new Food();
